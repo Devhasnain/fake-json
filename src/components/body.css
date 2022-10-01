@@ -1,0 +1,57 @@
+.main-div {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to top right, rgb(17, 158, 176), rgb(43, 87, 174));
+    color: rgb(234, 246, 10);
+    font-family: cursive;
+    overflow: hidden;
+}
+
+.nav-links {
+    color: rgb(234, 246, 10);
+}
+
+.nav-links:hover {
+    color: rgb(216, 223, 95);
+}
+
+.typewriter-div {
+    width: 80%;
+    height: 50vh;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.sub-links-apis ul {
+    list-style: none;
+    padding: 0%;
+}
+
+.sub-links-apis ul li {
+    width: 100%;
+    padding: 20px;
+}
+
+.sub-links-apis ul li a {
+    text-decoration: none;
+    color: rgb(234, 246, 10);
+    font-size: 20px;
+}
+
+.copy-btn {
+    cursor: pointer;
+    background-color: transparent;
+    border: none;
+    transition: 1s;
+    color: white;
+}
+
+.apis-ul li {
+    list-style: none;
+    width: 64%;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    display: flex;
+}
